@@ -45,7 +45,7 @@ class TopSupporters(commands.Cog):
                     fmt += f'**{n}.** `{u}` - {supporters[k]}\n'
                     n += 1
 
-            em = discord.Embed(title='Active Supporters', description=fmt, timestamp=date, color=0x7588da)
+            em = discord.Embed(title='#MendingArmy Staff (leaderboards)', description=fmt, timestamp=date, color=0x6c9ff)
             em.set_footer(text='Since')
             await ctx.send(embed=em)
 
