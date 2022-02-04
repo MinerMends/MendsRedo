@@ -42,7 +42,7 @@ class TopSupporters(commands.Cog):
             for k in supporters_keys:
                 u = self.bot.get_user(int(k))
                 if u:
-                    fmt += f'**{n}.** `{u}` : {supporters[k]}\n'
+                    fmt += f'**{n}.** `{u}`: {supporters[k]}\n'
                     n += 1
 
             em = discord.Embed(title='#MendingArmy Staff (leaderboards)', description=fmt, timestamp=date, color=0x6c9ff)
